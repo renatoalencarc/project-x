@@ -1,5 +1,4 @@
-<script setup>
-import { ref } from 'vue'
+<script setup lang="ts">
 
 defineProps({
   
@@ -9,7 +8,7 @@ defineProps({
 
 <template>
 <div class="nav">
-  <button>Github</button>
+  <button><span><Routerlink to="/github">Github</Routerlink></span></button>
   <button>Projetos</button>
   <button id="home">Home</button>
   <button>Acadêmico</button>
