@@ -8,4 +8,8 @@ defineProps({});
   <h1>BU</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+template {
+  background-color: yellow;
+}
+</style>
